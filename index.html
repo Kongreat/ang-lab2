@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> </title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        
+       <div class="calculator">
+
+            <div class="history">
+                <ul class="list" type="none" id = "list"></ul>
+            </div> 
+
+            <!-- <div class="result" id="result">
+                res
+            </div> -->
+            
+
+            <input type="text" id="result" class="inpt">
+
+           
+            <div class="buttons">
+
+                <div class="numbers">
+                    <input type="button" value="7" onclick="display('7')" class="btn">
+                    <input type="button" value="8" onclick="display('8')" class="btn">
+                    <input type="button" value="9" onclick="display('9')" class="btn">
+                    <input type="button" value="+" onclick="display('+')" class="btn">
+                </div>
+
+                <div class="numbers">
+                    <input type="button" value="4" onclick="display('4')" class="btn">
+                    <input type="button" value="5" onclick="display('5')" class="btn">
+                    <input type="button" value="6" onclick="display('6')" class="btn">
+                    <input type="button" value="-" onclick="display('-')" class="btn">
+                </div>
+    
+                <div class="numbers">
+                    <input type="button" value="1" onclick="display('1')" class="btn">
+                    <input type="button" value="2" onclick="display('2')" class="btn">
+                    <input type="button" value="3" onclick="display('3')" class="btn">
+                    <input type="button" value="*" onclick="display('*')" class="btn">
+                </div>
+    
+                <div class="numbers">
+                    <input type="button" value="0" onclick="display('0')" class="btn">
+                    <input type="button" value="." onclick="display('.')" class="btn">
+                    <input type="button" value="C" onclick="clr()" class="btn">
+                    <input type="button" value="/" onclick="display('/')" class="btn">
+                </div>
+    
+                <input type="button" value="=" onclick="solve()" class="equal">
+            </div>
+
+                  
+        </div>
+
+           
+           
+        </div>
+
+        <script src="scripts/script.js"></script>
+    </body>
+
+</html>
